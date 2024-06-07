@@ -100,8 +100,12 @@ const obj = {
 };
 obj.arrowFunction();
 obj.regularFunction();
+
+// Output:
+// undefined
+// 42
 ```
-    The output will be undefined. Arrow functions do not have their own this; they inherit this from the enclosing context which is the global object in this case.
+    Arrow functions do not have their own this; they inherit this from the enclosing context which is the global object in this case.
 
 ### 8. What is the output of the following code and why?
 
