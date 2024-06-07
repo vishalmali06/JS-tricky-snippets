@@ -99,7 +99,7 @@ const obj = {
     },
 };
 obj.arrowFunction();
-
+obj.regularFunction();
 ```
     The output will be undefined. Arrow functions do not have their own this; they inherit this from the enclosing context which is the global object in this case.
 
